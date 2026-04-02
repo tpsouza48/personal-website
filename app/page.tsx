@@ -77,12 +77,13 @@ export default function Home() {
                 <button 
                     onClick={() => setTab("./website")}
                     className={cn(
-                        "text-sm text-gray-400 mt-12 opacity-40",
+                        "text-sm text-gray-400 mt-12 opacity-40 sm:w-fit w-full",
                         "cursor-pointer",
                     )}
                 >
                     {
-                        isTouch ? "tap here to go back to main menu" : "press enter/space or click here to go back to main menu"
+                        isTouch ? "tap here to go back to main menu" 
+                        : "press enter/space or click here to go back to main menu"
                     }
                 </button>
             }
