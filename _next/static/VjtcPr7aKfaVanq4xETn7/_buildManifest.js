@@ -1,18 +1,18 @@
 self.__BUILD_MANIFEST = {
   "/Contact": [
-    "static/chunks/0j9gx7hq-.gpw.js"
+    "static/chunks/04_jq70kywnrj.js"
   ],
   "/Projects": [
-    "static/chunks/0gwjusrgy8mw_.js"
+    "static/chunks/04_20urmdhcxl.js"
   ],
   "/Website": [
-    "static/chunks/077ulbmvlpcup.js"
+    "static/chunks/0imz-ju88xi6t.js"
   ],
   "/WhoAmI": [
-    "static/chunks/079_sk_88-0s6.js"
+    "static/chunks/0vbobszgzx.db.js"
   ],
   "/_error": [
-    "static/chunks/0f40kew4g709v.js"
+    "static/chunks/0_m.-7pu282h3.js"
   ],
   "__rewrites": {
     "afterFiles": [],
