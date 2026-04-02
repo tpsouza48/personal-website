@@ -32,7 +32,7 @@ export default function WhoAmI() {
 
                     <div className="flex flex-col gap-2 mt-8">
                         <BrazilClock />
-                        <span className="text-[8px] text-gray-400 opacity-60">(i use arch btw.)</span>
+                        <span className="text-[10px] text-gray-400 opacity-60">(i use arch btw.)</span>
                     </div>
                 </div>
 
