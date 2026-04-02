@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} min-w-screen min-h-screen antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} min-w-screen min-h-screen antialiased dark`}
     >
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
