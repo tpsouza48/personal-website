@@ -1,22 +1,27 @@
 self.__BUILD_MANIFEST = {
   "/Contact": [
-    "static/chunks/0g7~3miy43~7d.js"
+    "static/chunks/0j9gx7hq-.gpw.js"
   ],
   "/Projects": [
-    "static/chunks/03hr~nj1i9ih0.js"
+    "static/chunks/0gwjusrgy8mw_.js"
   ],
   "/Website": [
-    "static/chunks/0y6~g1fitcjgd.js"
+    "static/chunks/077ulbmvlpcup.js"
   ],
   "/WhoAmI": [
-    "static/chunks/0akxd7rdm.e7a.js"
+    "static/chunks/079_sk_88-0s6.js"
   ],
   "/_error": [
-    "static/chunks/107bt8oe-9cz7.js"
+    "static/chunks/0f40kew4g709v.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/personal-website//_next/:path+",
+        "destination": "/personal-website/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
