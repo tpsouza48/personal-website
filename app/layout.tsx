@@ -31,7 +31,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className="min-h-screen min-w-screen flex flex-col">
-        <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-mono dark:bg-black">
+        <div className="flex flex-col flex-1 items-center justify-center font-mono bg-black">
           {children}
         </div>
       </body>

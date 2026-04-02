@@ -1,3 +1,4 @@
+import { getBasePath } from "@/helpers/getBasePath";
 import { cn } from "@/lib/utils";
 
 export default function BadgeWithImage({ name, icon, textColor, link }: { name: string, icon: string, textColor?: string, link?: string }) {
@@ -13,7 +14,7 @@ export default function BadgeWithImage({ name, icon, textColor, link }: { name: 
         >
             <img
                 className="w-8 h-8 object-contain" 
-                src={icon} 
+                src={`${getBasePath()}/${icon}`} 
                 alt={name}
             />
             <p className={`antialiased text-xs ${textColor ? textColor : "text-gray-300"}`}>{name}</p>
